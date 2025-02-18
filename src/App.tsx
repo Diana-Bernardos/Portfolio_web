@@ -21,7 +21,7 @@ import easyCards from "./assets/easy_4.png"
 import FinNest from "./assets/Finnest.jpg"
 import ollamachat from "./assets/Ollama chat .jpg"
 import calculadora from "./assets/Calculadora.png"
-import profilePic from "./assets/background.png"
+import profilePic from "./assets/161449179.jpeg"
 
 interface Project {
   title: string
