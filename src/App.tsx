@@ -141,7 +141,7 @@ function App() {
               <button onClick={toggleDarkMode} className={`mr-4 ${darkMode ? "text-yellow-300" : "text-gray-800"}`}>
                 {darkMode ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
               </button>
-              <a href="./Curriculum Vitae.pdf" download className={`mr-4 ${darkMode ? "text-white" : "text-gray-800"}`}>
+              <a href="./assets/Currículum Vitae.pdf" download className={`mr-4 ${darkMode ? "text-white" : "text-gray-800"}`}>
                 <Download className="h-6 w-6" />
               </a>
               <div className="md:hidden">
@@ -185,7 +185,7 @@ function App() {
       <header className="min-h-screen flex flex-col items-center justify-center relative px-4 pt-16">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white/30 dark:to-gray-800/30"></div>
         <div className="text-center mb-8 relative z-10">
-          <div className="w-56 h-56 mx-auto mb-8 rounded-full overflow-hidden ring-4 ring-purple-600 dark:ring-gray-700 shadow-xl animate-float">
+          <div className="p-0 m-0 mx-auto mb-12 rounded-full aspect-square w-64 h-64 overflow-hidden object-cover ring-4 ring-purple-600 dark:ring-gray-700 shadow-xl animate-float">
             <img src={profilePic || "/placeholder.svg"} alt="Profile" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-5xl font-bold text-white mb-4 animate-fade-in">Diana Bernardos</h1>
