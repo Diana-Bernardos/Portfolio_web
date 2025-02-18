@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-fade-in-delay-1 {
+  animation: fadeIn 0.8s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fadeIn 0.8s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+.glass-effect {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Nuevos estilos para el menú y el carrusel */
+.nav-link {
+  @apply text-gray-800 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200;
+}
+
+.project-card {
+  @apply glass-effect rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl;
+}
+
+.project-image {
+  @apply w-full h-64 object-cover transition-transform duration-300 transform hover:scale-105;
+}
+
+.tech-tag {
+  @apply px-4 py-1.5 bg-purple-100 text-purple-600 rounded-full text-sm font-medium;
+}
+
