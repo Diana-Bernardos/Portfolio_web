@@ -23,6 +23,7 @@ import ollamachat from "./assets/Ollama chat .jpg"
 import calculadora from "./assets/Calculadora.png"
 import profilePic from "./assets/161449179.jpeg"
 import n8n from "./assets/n8n.jpg"
+import family from "./assets/family-logo.png"
 
 interface Project {
   title: string
@@ -75,6 +76,14 @@ const projects: Project[] = [
     tech: [" CSS", "JavaScript", "HTML"],
     image: calculadora,
     link: "https://67b303fe8fa230145787ba78--gentle-lolly-b754d6.netlify.app/",
+  },
+  {
+    title: "Family-Planner ",
+    description:
+      " Family Planner es una aplicación móvil desarrollada con React Native y Expo diseñada para facilitar la organización familiar. Permite a las familias gestionar calendarios compartidos, eventos personales, listas de compras, actividades escolares y recibir notificaciones de recordatorio.Esta aplicación está diseñada para ser altamente personalizable y adaptable a las necesidades específicas de cada familia, facilitando la organización y coordinación de actividades diarias, escolares y de planificación en un solo lugar",
+    tech: ["React Native", "TypeScript"],
+    image: family,
+    link: "",
   },
   {
     title: "n8n_planner_bot ",
@@ -215,7 +224,7 @@ function App() {
               <Linkedin className="w-7 h-7" />
             </a>
             <a
-              href="https://dianabernardosm@gmail.com"
+              href="https://www.dianabernardosm@gmail.com"
               className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200"
             >
               <Mail className="w-7 h-7" />
