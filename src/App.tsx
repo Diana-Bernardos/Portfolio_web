@@ -209,7 +209,7 @@ function App() {
               <Github className="w-7 h-7" />
             </a>
             <a
-              href="www.linkedin.com/in/diana-bernardos-moraleda-536378223"
+              href="https://www.linkedin.com/in/diana-bernardos-moraleda-536378223"
               className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200"
             >
               <Linkedin className="w-7 h-7" />
