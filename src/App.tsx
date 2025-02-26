@@ -80,8 +80,8 @@ const projects: Project[] = [
   {
     title: "Family-Planner ",
     description:
-      " Family Planner es una aplicación móvil desarrollada con React Native y Expo diseñada para facilitar la organización familiar. Permite a las familias gestionar calendarios compartidos, eventos personales, listas de compras, actividades escolares y recibir notificaciones de recordatorio.Esta aplicación está diseñada para ser altamente personalizable y adaptable a las necesidades específicas de cada familia, facilitando la organización y coordinación de actividades diarias, escolares y de planificación en un solo lugar",
-    tech: ["React Native", "TypeScript"],
+      " Family Planner es una aplicación móvil desarrollada con React Native y Expo diseñada para facilitar la organización familiar. Permite a las familias gestionar calendarios compartidos, eventos personales, listas de compras, actividades escolares y recibir notificaciones de recordatorio.Esta aplicación está diseñada para ser altamente personalizable y adaptable a las necesidades específicas de cada familia, facilitando la organización y coordinación de actividades diarias, escolares y de planificación en un solo lugar.Ademas tiene implementado un asistente personal con LLM de Ollama, para que sea todavia más util",
+    tech: ["React Native", "TypeScript","ollama"],
     image: family,
     link: "",
   },
