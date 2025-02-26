@@ -215,7 +215,7 @@ function App() {
               <Linkedin className="w-7 h-7" />
             </a>
             <a
-              href="dianabernardosm@gmail.com"
+              href="https://dianabernardosm@gmail.com"
               className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200"
             >
               <Mail className="w-7 h-7" />
