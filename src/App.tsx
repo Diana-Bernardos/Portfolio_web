@@ -24,6 +24,8 @@ import calculadora from "./assets/Calculadora.png"
 import profilePic from "./assets/161449179.jpeg"
 import n8n from "./assets/n8n.jpg"
 import family from "./assets/family-logo.png"
+import recetario from "./assets/recetario.png"
+
 
 interface Project {
   title: string
@@ -91,6 +93,14 @@ const projects: Project[] = [
       " Automatiza la creacion de plaes diaros inteligentes, utilizando n8n.Google Calendar: Recupera eventos programados del día ,Notion: Obtiene tareas pendientes y su estado,Gmail: Recopila emails importantes sin responder. Function Node (Preparación):Combina datos de todas las fuentes,estructura la información para la IA y formatea datos para procesamiento. Despues conecta con HuggingFace, para porcesar y analizar la informacion generando recomendaciones inteligentes.La distribucion de la informacion se realiza a traves de Telegram al que se envian notificaciones diarias , en Notion nos crea paginas estructuradas con el plan del dia y el ultimo Function node adapta el contenido para cada plataforma.  ",
     tech: [" n8n", "JavaScript"],
     image: n8n,
+    link: "",
+  },
+  {
+    title: "Por Mis Recetas GS ",
+    description:
+      " Tu asistente de cocina personal Guarda tus recetas favoritas, crea listas de compra y recibe recomendaciones personalizadas con nuestro asistente de IA . Bienvenidos al mundo Sin Gluten para todos",
+    tech: [" Tailwind", "TypeScript", "React", "Next","Ollama","API Spoonlacunar"],
+    image: recetario,
     link: "",
   },
 ]
