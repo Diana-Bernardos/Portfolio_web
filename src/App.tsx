@@ -218,7 +218,7 @@ function App() {
           </div>
           <h1 className="text-5xl font-bold text-white mb-4 animate-fade-in">Diana Bernardos</h1>
           <p className="text-2xl text-purple-200 dark:text-purple-300 mb-6 animate-fade-in-delay-1">
-            Full Stack Developer
+            Frontend Developer & UX/UI Designer
           </p>
           <div className="flex justify-center gap-6 mb-8 animate-fade-in-delay-2">
             <a
@@ -258,9 +258,15 @@ function App() {
           </div>
           <div className={`glass-effect p-8 rounded-2xl shadow-xl ${darkMode ? "bg-gray-700" : ""}`}>
             <p className={`text-lg ${darkMode ? "text-gray-800" : "text-gray-700"} leading-relaxed mb-6`}>
-              Apasionada por el desarrollo de aplicaciones web modernas y eficientes, especializada en React y
-              JavaScript. Desarrollo de aplicaciones con IA generativa, Chatbots y automatizaciones, para mejorar
-              procesos y la experiencia del usuario.
+            UX/UI Designer & Frontend Developer . Apasionada por el diseño
+y desarrollo de aplicaciones web modernas, eficientes y
+centradas en la experiencia del usuario. Destaco por mi
+capacidad para trabajar en proyectos individuales y en
+equipo, combinando creatividad y lógica para ofrecer
+soluciones innovadoras.
+Comprometida con el aprendizaje continuo y la
+implementación de tecnologías avanzadas para optimizar
+procesos y resolver problemas de manera efectiva.
             </p>
             <p className={`text-lg ${darkMode ? "text-gray-800" : "text-gray-700"} leading-relaxed`}>
               Actualmente buscando nuevas oportunidades para contribuir a proyectos innovadores y colaborar con nuevos
