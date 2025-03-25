@@ -23,8 +23,9 @@ import ollamachat from "./assets/Ollama chat .jpg"
 import calculadora from "./assets/Calculadora.png"
 import profilePic from "./assets/161449179.jpeg"
 import n8n from "./assets/n8n.jpg"
-import family from "./assets/family-logo.png"
-import recetario from "./assets/recetario.png"
+import family from "./assets/family.jpg"
+import recetario from "./assets/recetario.jpg"
+import shopping from "./assets/shopping.jpg"
 
 
 interface Project {
@@ -72,13 +73,22 @@ const projects: Project[] = [
     link: "",
   },
   {
-    title: "Calculadora ",
+    title: "calculadora",
     description:
       " Calculadora cientifica , con funciones complejas para cursos mas avanzados, puedes usarla en tu movil",
     tech: [" CSS", "JavaScript", "HTML"],
     image: calculadora,
     link: "https://67b303fe8fa230145787ba78--gentle-lolly-b754d6.netlify.app/",
   },
+  {
+    title: "My Shopping List AI",
+    description:
+      " Shopiing List con asistente virtual para menus semanales,listas de la compra de los menus , tus propias listas de la compra de tus supermercados favoritos, compartelas y que no se te olvide nada.",
+    tech: [" CSS", "JavaScript", "TypeScript","Ollama(LLM)"],
+    image: shopping,
+    link: "https://v0-mobile-shopping-app-seven.vercel.app/",
+  },
+  
   {
     title: "Family-Planner ",
     description:
@@ -103,6 +113,8 @@ const projects: Project[] = [
     image: recetario,
     link: "",
   },
+
+  
 ]
 
 function App() {
