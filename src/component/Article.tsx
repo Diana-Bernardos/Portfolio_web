@@ -43,6 +43,7 @@ const Article: React.FC<ArticleProps> = ({ onBack }) => {
               <li>Frontend: React,JavaScript,TypeScript, Tailwind CSS</li>
               <li>Backend: Node.js, Python, RESTful APIs</li>
               <li>Database: MYSQL</li>
+              <li>Desing:Figma,framer,webflow,UX/UI</li>
             </ul>
 
             <h2> Mi Filosofía</h2>
