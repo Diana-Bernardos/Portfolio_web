@@ -3,24 +3,13 @@
 @tailwind utilities;
 
 @keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .animate-float {
@@ -46,20 +35,20 @@
   background: rgba(255, 255, 255, 0.8);
 }
 
-/* Nuevos estilos para el menú y el carrusel */
-.nav-link {
-  @apply text-gray-800 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200;
+@layer base {
+  .prose h2 {
+    @apply text-2xl font-semibold text-gray-800 mt-8 mb-4;
+  }
+  
+  .prose p {
+    @apply text-gray-700 mb-6;
+  }
+  
+  .prose ul {
+    @apply list-disc list-inside mb-6 text-gray-700;
+  }
+  
+  .prose li {
+    @apply mb-2;
+  }
 }
-
-.project-card {
-  @apply glass-effect rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl;
-}
-
-.project-image {
-  @apply w-full h-64 object-cover transition-transform duration-300 transform hover:scale-105;
-}
-
-.tech-tag {
-  @apply px-4 py-1.5 bg-purple-100 text-purple-600 rounded-full text-sm font-medium;
-}
-
