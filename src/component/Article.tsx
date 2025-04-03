@@ -30,7 +30,7 @@ const Article: React.FC<ArticleProps> = ({ onBack }) => {
             <h2>Mi Viaje</h2>
             <p>
             "He llegado hasta aqui, después de muchos años de experiencia laboral en otro sector que nada tiene que ver. El estar aburrida y estancada tantos años en lo mismo me ha echo ver aún con más lúz lo que soy capaz de hacer y aprender."‍
-            
+            ""
             Llegue al mundo del desarrollo web de la mano de dos amigos que confiaron en que podia cambiar mi vida, por que no. Laura y Marcos me dijeron: "Adelante tu puedes"
             
             .Hoy soy Desarrolladora Web despues de una formación BootCamp y sigo formandome por mi cuenta con cursos certificados, usando y aprendiendo sobre IA asi como realizando proyectos y aplicaciones propias desde el inicio hasta su despliegue.
