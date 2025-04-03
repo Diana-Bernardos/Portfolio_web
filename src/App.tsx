@@ -41,7 +41,7 @@ function App() {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              {['inicio', 'about', 'projects', 'contact'].map((item) => (
+              {['Inicio', 'Sobre Mi', 'Proyectos', 'Contacto'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -51,9 +51,10 @@ function App() {
                 </button>
               ))}
               <a
-                href="/path-to-your-cv.pdf"
+                href="/assets/docs/CV.pdf"
                 className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                download
+                download= "CV.pdf"
+                
               >
                 <FileDown className="w-5 h-5" />
               </a>
@@ -116,16 +117,16 @@ function App() {
             Hola soy Diana Bernardos
           </h1>
           <p className="text-xl sm:text-2xl md:text-3xl text-purple-200 mb-6 animate-fade-in-delay-1">
-            UX/UI Designer & Frontend Developer
+          Frontend Developer & UX/UI Design 
           </p>
           <div className="flex justify-center gap-4 sm:gap-6 mb-8 animate-fade-in-delay-2">
-            <a href="#" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
+            <a href="https://github.com/Diana-Bernardos" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
               <Github className="w-6 h-6 sm:w-7 sm:h-7" />
             </a>
-            <a href="#" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
+            <a href="https://www.linkedin.com/in/diana-bernardos-moraleda-536378223" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
               <Linkedin className="w-6 h-6 sm:w-7 sm:h-7" />
             </a>
-            <a href="#" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
+            <a href="https://dianabernardosm@gmail.com" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
               <Mail className="w-6 h-6 sm:w-7 sm:h-7" />
             </a>
           </div>
@@ -146,25 +147,22 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-center mb-12">
             <User className="w-8 h-8 text-purple-600 dark:text-purple-400 mr-3" />
-            <h2 className="text-4xl font-bold text-gray-800 dark:text-white">About Me</h2>
+            <h2 className="text-4xl font-bold text-gray-800 dark:text-white">Sobre Mi</h2>
           </div>
           <div className="glass-effect dark:bg-gray-800/50 p-6 sm:p-8 rounded-2xl shadow-xl flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/3">
               <img
-                src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=800&h=1000&fit=crop"
+                src="https://images.unsplash.com/photo-1609813744174-a0df83d477fe?w=900&auto=format&fit=crohttps://images.unsplash.com/photo-1742196644267-f11e1e262431?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGZvdG9zJTIwZGUlMjBwdWVydGFzJTIwZW50cmUlMjBhYmllcnRhcyUyMGRlJTIwY3Jpc3RhbCUyMGNvbiUyMGNvbG9yaWRvfGVufDB8fDB8fHwwp&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGZvdG98ZW58MHx8MHx8fDA%3D"
                 alt="Professional portrait"
                 className="rounded-xl shadow-lg w-full"
               />
             </div>
             <div className="md:w-2/3">
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                Soy una apasionada diseñadora UX/UI y desarrolladora frontend con un ojo 
-                especial para crear experiencias digitales hermosas y funcionales. Mi enfoque 
-                combina principios de diseño centrado en el usuario con código limpio y eficiente.
+              ¡Bienvenido a mi universo creativo! Aquí comparto mis nuevas aficiones por el diseño web , mis ideas y las experiencias que han moldeado mi carrera profesional. Sumérgete para descubrir qué impulsa mi creatividad.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
-                Me especializo en transformar ideas complejas en interfaces intuitivas y 
-                atractivas que deleitan a los usuarios y cumplen objetivos comerciales.
+              Acompáñame en este viaje mientras presento mis experiencias y la inspiración que hay detrás de él. 
               </p>
               <button
                 onClick={() => setShowArticle(true)}
@@ -188,17 +186,18 @@ function App() {
           <div className="glass-effect dark:bg-gray-800/50 p-6 sm:p-8 rounded-2xl shadow-xl flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2">
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+                src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxtaXMlMjBwcm95ZWN0b3MlMjB3ZWJ8ZW58MHx8MHx8fDA%3D"
                 alt="Project showcase"
                 className="rounded-xl shadow-lg w-full object-cover"
               />
             </div>
             <div className="md:w-1/2">
-              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Mi Portafolio de Diseño</h3>
+              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Mi Portafolio de Proyectos</h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                Explora mi colección de proyectos de diseño UX/UI y desarrollo frontend. 
-                Cada proyecto refleja mi pasión por crear experiencias digitales 
-                excepcionales y centradas en el usuario.
+                <p>Aqui muestro algunos de mis proyectos personales.</p>
+                 <p>Cada proyecto refleja mi pasión por crear experiencias digitales, con un reto distinto y una problematica distinta a solucionar.</p>
+                
+                
               </p>
               <button
                 onClick={() => setShowProjects(true)}
@@ -217,12 +216,11 @@ function App() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center mb-12">
             <Send className="w-8 h-8 text-purple-600 dark:text-purple-400 mr-3" />
-            <h2 className="text-4xl font-bold text-gray-800 dark:text-white">Conectemos</h2>
+            <h2 className="text-4xl font-bold text-gray-800 dark:text-white">Hablamos</h2>
           </div>
           <div className="glass-effect dark:bg-gray-800/50 p-8 sm:p-12 rounded-2xl shadow-xl">
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-              ¿Tienes un proyecto en mente? Me encantaría escuchar tus ideas y 
-              ayudarte a hacerlas realidad.
+            Dispuesta a colaborar con nuevos equipos y proyectos para poner a disposición todo mi potencial. 
             </p>
             <a
               href="mailto:contact@example.com"
@@ -237,7 +235,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 bg-gradient-to-b from-white to-purple-50 dark:from-gray-900 dark:to-gray-900">
         <div className="text-center text-gray-600 dark:text-gray-400">
-          © 2024 Diana Bernardos. All rights reserved.
+          © 2025 Diana Bernardos. Todos los derechos reservados.
         </div>
       </footer>
     </div>
