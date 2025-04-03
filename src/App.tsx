@@ -159,10 +159,10 @@ function App() {
             </div>
             <div className="md:w-2/3">
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              ¡Bienvenido a mi universo creativo! Aquí comparto mis nuevas aficiones por el diseño web , mis ideas y las experiencias que han moldeado mi carrera profesional. Sumérgete para descubrir qué impulsa mi creatividad.
+              ¡Bienvenido a mi universo creativo! Aquí comparto mi afición por el diseño web , mis ideas y las experiencias que han moldeado mi carrera profesional. Sumérgete para descubrir qué impulsa mi creatividad.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
-              Acompáñame en este viaje mientras presento mis experiencias y la inspiración que hay detrás de él. 
+              Acompáñame en este viaje mientras presento mis experiencias y la inspiración que hay detrás de ellas. 
               </p>
               <button
                 onClick={() => setShowArticle(true)}

@@ -36,7 +36,7 @@ const Article: React.FC<ArticleProps> = ({ onBack }) => {
             <p>
             Hoy soy Desarrolladora Web despues de una formación BootCamp y sigo formandome por mi cuenta con cursos certificados, usando y aprendiendo sobre IA asi como realizando proyectos y aplicaciones propias desde el inicio hasta su despliegue.</p>
             <p>
-             He descubierto el mundo del Diseño UX/UI y me apasiona, por eso estoy aqui, por que sigo aprendiendo cada dia y ahora si me encanta lo que hago .
+             He descubierto el mundo del Diseño UX/UI y me apasiona, por eso estoy aqui, por que sigo aprendiendo cada día y ahora si me encanta lo que hago .
             </p>
 
             <h2> Skills</h2>

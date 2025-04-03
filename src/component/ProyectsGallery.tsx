@@ -113,7 +113,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
           <h1 className="text-4xl font-bold text-gray-800 mb-6">Proyectos destacados
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl">
-          Explora mis últimos trabajos y proyectos personales. Cada proyecto representa un reto único y demuestra diferentes aspectos de mi experiencia técnica
+          Explora mis proyectos personales. Cada proyecto representa un reto único y demuestra diferentes aspectos de mi experiencia técnica
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -186,13 +186,13 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
                       href={project.liveUrl}
                       className="inline-flex items-center text-purple-600 hover:text-purple-700 text-sm font-medium"
                     >
-                      Live Demo <ExternalLink className="w-3 h-3 ml-1" />
+                      Ver Proyecto <ExternalLink className="w-3 h-3 ml-1" />
                     </a>
                     <a
                       href={project.githubUrl}
                       className="inline-flex items-center text-purple-600 hover:text-purple-700 text-sm font-medium"
                     >
-                      <Github className="w-3 h-3 mr-1" /> Code
+                      <Github className="w-3 h-3 mr-1" />
                     </a>
                   </div>
                 </div>
