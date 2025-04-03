@@ -145,7 +145,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
                       href={project.liveUrl}
                       className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
                     >
-                      Live Demo <ExternalLink className="w-4 h-4 ml-2" />
+                     Ver Proyecto <ExternalLink className="w-4 h-4 ml-2" />
                     </a>
                     
                   </div>

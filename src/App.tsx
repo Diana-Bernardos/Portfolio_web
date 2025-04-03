@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Briefcase, User, Send, Menu, X, Moon, Sun, FileDown } from 'lucide-react';
-import Article from './component/Article'
+import Article from './component/Article';
 import ProjectsGallery from './component/ProyectsGallery';
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              {['Inicio', 'Sobre Mi', 'Proyectos', 'Contacto'].map((item) => (
+              {['inicio', 'about', 'projects', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -53,8 +53,7 @@ function App() {
               <a
                 href="/assets/docs/CV.pdf"
                 className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                download= "CV.pdf"
-                
+                download = "CV.pdf"
               >
                 <FileDown className="w-5 h-5" />
               </a>
@@ -69,9 +68,9 @@ function App() {
             {/* Mobile Navigation */}
             <div className="md:hidden flex items-center space-x-4">
               <a
-                href="/path-to-your-cv.pdf"
+                href="/assets/docs/CV.pdf"
                 className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                download
+                download = "CV.pdf"
               >
                 <FileDown className="w-5 h-5" />
               </a>
@@ -117,7 +116,7 @@ function App() {
             Hola soy Diana Bernardos
           </h1>
           <p className="text-xl sm:text-2xl md:text-3xl text-purple-200 mb-6 animate-fade-in-delay-1">
-          Frontend Developer & UX/UI Design 
+          Frontend Developer & UX/UI Design
           </p>
           <div className="flex justify-center gap-4 sm:gap-6 mb-8 animate-fade-in-delay-2">
             <a href="https://github.com/Diana-Bernardos" className="text-white hover:text-purple-300 transition-colors transform hover:scale-110 duration-200 p-2">
