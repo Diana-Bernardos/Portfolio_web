@@ -1,5 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Briefcase, User, Send, Menu, X, Moon, Sun, FileDown } from 'lucide-react';
+import { 
+  Github, 
+  Linkedin, 
+  Mail, 
+  ExternalLink, 
+  ChevronDown, 
+  Briefcase, 
+  User, 
+  Send, 
+  Menu, 
+  X, 
+  Moon, 
+  Sun, 
+  FileDown,
+  Component,
+  FileCode2,
+  Code,
+  Server,
+  Database,
+  Paintbrush,
+  Layers,
+  Figma,
+  Bot,
+  Globe,
+  Frame
+} from 'lucide-react';
 import Article from './component/Article';
 import ProjectsGallery from './component/ProyectsGallery';
 
@@ -8,6 +33,24 @@ function App() {
   const [showArticle, setShowArticle] = useState(false);
   const [showProjects, setShowProjects] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const skills = [
+    { icon: <Component className="w-8 h-8" />, name: "React" },
+    { icon: <FileCode2 className="w-8 h-8" />, name: "JavaScript" },
+    { icon: <Code className="w-8 h-8" />, name: "HTML" },
+    { icon: <Server className="w-8 h-8" />, name: "Node.js" },
+    { icon: <Database className="w-8 h-8" />, name: "MySQL" },
+    { icon: <Paintbrush className="w-8 h-8" />, name: "CSS" },
+    { icon: <Layers className="w-8 h-8" />, name: "Tailwind" },
+    { icon: <Figma className="w-8 h-8" />, name: "Figma" },
+    { icon: <Bot className="w-8 h-8" />, name: "Ollama" },
+    { icon: <Globe className="w-8 h-8" />, name: "Webflow" },
+    { icon: <Frame className="w-8 h-8" />, name: "Framer" }
+  ];
+
+
+  // Double the skills array for smooth infinite scroll
+  const extendedSkills = [...skills, ...skills];
 
   useEffect(() => {
     if (isDarkMode) {
@@ -174,6 +217,42 @@ function App() {
           </div>
         </div>
       </section>
+
+        {/* Skills Section */}
+        <section className="py-16 bg-gradient-to-r from-purple-50 via-pink-50 to-purple-50 dark:from-gray-900 dark:via-purple-900/30 dark:to-gray-900 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-800 dark:text-white"> Skills</h2>
+          </div>
+          <div className="relative">
+            <div className="flex gap-12 animate-slide">
+              {extendedSkills.map((skill, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center group shrink-0"
+                >
+                  <div className="p-4 rounded-xl bg-white/50 dark:bg-gray-800/50 shadow-lg backdrop-blur-sm 
+                                group-hover:bg-purple-100 dark:group-hover:bg-purple-900/50 
+                                transition-all duration-300 transform group-hover:scale-110">
+                    <div className="text-purple-600 dark:text-purple-400 
+                                  group-hover:text-purple-700 dark:group-hover:text-purple-300">
+                      {skill.icon}
+                    </div>
+                  </div>
+                  <span className="mt-2 text-sm font-medium text-gray-600 dark:text-gray-400 
+                                 group-hover:text-purple-600 dark:group-hover:text-purple-300 
+                                 transition-colors">
+                    {skill.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+            <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-purple-50 dark:from-gray-900 to-transparent"></div>
+            <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-purple-50 dark:from-gray-900 to-transparent"></div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Projects Section */}
       <section id="projects" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-pink-50 to-purple-50 dark:from-gray-900 dark:to-purple-900/30">
