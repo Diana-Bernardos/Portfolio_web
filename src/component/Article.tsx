@@ -14,7 +14,7 @@ const Article: React.FC<ArticleProps> = ({ onBack }) => {
           className="flex items-center text-purple-600 hover:text-purple-700 mb-8"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
-          Back to Portfolio
+          Volver al Portfolio
         </button>
         
         <article className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
@@ -38,15 +38,6 @@ const Article: React.FC<ArticleProps> = ({ onBack }) => {
             <p>
              He descubierto el mundo del Diseño UX/UI y me apasiona, por eso estoy aqui, por que sigo aprendiendo cada día y ahora si me encanta lo que hago .
             </p>
-
-            <h2> Skills</h2>
-            <ul>
-              <li>Frontend: React,JavaScript,TypeScript, Tailwind CSS</li>
-              <li>Backend: Node.js, Python, RESTful, APIs</li>
-              <li>Database: MYSQL</li>
-              <li>Desing: Figma, Framer, Webflow, UX/UI</li>
-              <li>IA: ChatGpt, LLM ollama, Sonet,ChatBots,n8n</li>
-            </ul>
 
             <h2> Mi Filosofía</h2>
             <p>

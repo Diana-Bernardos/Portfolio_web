@@ -94,9 +94,9 @@ function App() {
                 </button>
               ))}
               <a
-                href="/assets/docs/CV.pdf"
+                href="./assetes/docs/CV.pdf"
                 className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                download = "CV.pdf"
+                download="CV.pdf"
               >
                 <FileDown className="w-5 h-5" />
               </a>
@@ -111,9 +111,9 @@ function App() {
             {/* Mobile Navigation */}
             <div className="md:hidden flex items-center space-x-4">
               <a
-                href="/assets/docs/CV.pdf"
+                href="./assets/docs/CV.pdf"
                 className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                download = "CV.pdf"
+                download="CV.pdf"
               >
                 <FileDown className="w-5 h-5" />
               </a>
@@ -137,7 +137,7 @@ function App() {
         {isMenuOpen && (
           <div className="md:hidden bg-white/95 dark:bg-gray-900/95 backdrop-blur-md">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {['inicio', 'about', 'projects', 'contact'].map((item) => (
+              {['Home', 'about', 'projects', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}

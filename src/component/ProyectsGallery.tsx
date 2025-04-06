@@ -21,7 +21,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       description: "Calendario de planificadión familiar, ten todo bajo control,con tu asistente familiar",
       image: movil,
       technologies: ["React", "Node.js", "MySql", "JacaScript", "CSS","ollama"],
-      liveUrl: "https:///www.canva.com/design/DAGgfKaN_gE/LP4Oz6uDrQp1Yi5p46ZNUw/edit?utm_content=DAGgfKaN_gE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      liveUrl: "www.canva.com/design/DAGgfKaN_gE/r6LhVstvPKNO9xYvlLNX1w/view?utm_content=DAGgfKaN_gE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21c5263177",
       featured: true
     },
     {
