@@ -9,6 +9,7 @@ import shopping from "../assets/shopping.jpg"
 import spice from "../assets/spice.webp"
 import easy from "../assets/easy_4.png"
 import study from "../assets/case.png"
+import img3225 from "../assets/img3255.webp"
 
 interface ProjectsGalleryProps {
   onBack: () => void;
@@ -65,7 +66,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       description: "Vamos a hacer la compra, con Shopping List a demás podemos crear un menú para la semana y la lista de mismo para el super. Compartir nuestras listas etc … todo son ventajas",
       image: shopping,
       technologies:  ["React", "TypeScript", "JS", "CSS", "ollama"],
-      liveUrl: "#",
+      liveUrl: "https://v0-mobile-shopping-app-seven.vercel.app/",
       githubUrl: "#",
       featured: false
     },
@@ -93,9 +94,18 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       image: study,
       technologies:  ["Figma", "Plugins"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "",
       featured: false
-    }
+    },
+    {
+      title:"Rick and Morty API",
+      description:"APP Rick and Morty API",
+      image: img3225,
+      technologies:  ["React", "JS", "SCSS"],
+      liveUrl: "https://rick-and-morty-nu-eight.vercel.app/",
+      githubUrl: "https://rick-and-morty-nu-eight.vercel.app/",
+      featured: false
+    },
   ];
 
   return (
