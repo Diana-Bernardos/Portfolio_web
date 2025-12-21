@@ -23,6 +23,8 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       image: movil,
       technologies: ["React", "Node.js", "MySql", "JacaScript", "CSS","ollama"],
       liveUrl: "https://www.canva.com/design/DAGgfKaN_gE/r6LhVstvPKNO9xYvlLNX1w/view?utm_content=DAGgfKaN_gE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21c5263177",
+      liveUrl_case:"https://v0-ux-ui-expert-review-8btb2bjgp-dianas-projects-b7ad46ac.vercel.app/",
+
       featured: true
     },
     {
@@ -40,7 +42,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       image: calculadora,
       technologies: ["React", "JS", "CSS", ],
       liveUrl: "https://67b303fe8fa230145787ba78--gentle-lolly-b754d6.netlify.app/",
-      githubUrl: "#",
+      githubUrl: "https://v0-ux-ui-expert-review-8btb2bjgp-dianas-projects-b7ad46ac.vercel.app/",
       featured: false
     },
     {
@@ -93,7 +95,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       description:"Case Study UX/UI  de la APP Family Planner ",
       image: study,
       technologies:  ["Figma", "Plugins"],
-      liveUrl: "#",
+      liveUrl: "https://v0-ux-ui-expert-review-8btb2bjgp-dianas-projects-b7ad46ac.vercel.app/",
       githubUrl: "",
       featured: false
     },
