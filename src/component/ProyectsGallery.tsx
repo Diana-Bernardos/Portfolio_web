@@ -58,10 +58,10 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       title: "Recetario Sin Gluten",
       description: "Tu recetario personalizado sin gluten con asistente de cocina solo para ti , crea tus menús.",
       image: recetario,
-      technologies: ["React", "spoonacularRecipesAPI", "ollama","React", "Tailwind CSS", "Supabase",],
+      technologies: ["React", "spoonacularRecipesAPI", "ollama", "Tailwind CSS", "Supabase"],
       liveUrl: "https://mis-recetas-gluten-free.vercel.app/",
       githubUrl: "https://github.com/Diana-Bernardos/mis-recetas-gluten-free.git",
-      featured: false
+      featured: true
     },
     {
       title: "My Shopping List",
@@ -155,11 +155,22 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
                   <div className="flex gap-4">
                     <a
                       href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
                     >
                      Ver Proyecto <ExternalLink className="w-4 h-4 ml-2" />
                     </a>
-                    
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-4 py-2 bg-purple-100 text-purple-600 rounded-lg hover:bg-purple-200 transition-colors"
+                      >
+                       GitHub <Github className="w-4 h-4 ml-2" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -196,12 +207,16 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
                   <div className="flex gap-3">
                     <a
                       href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center text-purple-600 hover:text-purple-700 text-sm font-medium"
                     >
                       Ver Proyecto <ExternalLink className="w-3 h-3 ml-1" />
                     </a>
                     <a
                       href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center text-purple-600 hover:text-purple-700 text-sm font-medium"
                     >
                       <Github className="w-3 h-3 mr-1" />
