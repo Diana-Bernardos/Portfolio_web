@@ -59,8 +59,8 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       description: "Tu recetario personalizado sin gluten con asistente de cocina solo para ti , crea tus menús.",
       image: recetario,
       technologies: ["React", "spoonacularRecipesAPI", "ollama","React", "Tailwind CSS", "Supabase",],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://mis-recetas-gluten-free.vercel.app/",
+      githubUrl: "https://github.com/Diana-Bernardos/mis-recetas-gluten-free.git",
       featured: false
     },
     {
