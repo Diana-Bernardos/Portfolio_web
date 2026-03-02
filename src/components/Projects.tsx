@@ -13,9 +13,21 @@ import spice from "../assets/spice.webp"
 import easy from "../assets/easy_4.png"
 import study from "../assets/case.png"
 import img3225 from "../assets/img3255.webp"
+import asistDom from "../assets/asistDom.png"
+
+interface Project {
+  title: string;
+  description: string;
+  longDescription?: string;
+  image: string;
+  technologies: string[];
+  liveUrl: string;
+  githubUrl: string;
+  featured: boolean;
+}
 
 export function Projects() {
-  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const projects = [
     {
@@ -109,7 +121,16 @@ export function Projects() {
       liveUrl: "https://rick-and-morty-nu-eight.vercel.app/",
       githubUrl: "https://rick-and-morty-nu-eight.vercel.app/",
       featured: false
-    }
+    },
+    {
+      title:"SmartHome AI",
+      description:"Asitente Domotico AI ",
+      image: asistDom,
+      technologies:  ["React", "TypeScript", "Tailwind","Ollama Phi3"],
+      liveUrl: "https://smart-home-ai-1-r8m0nnuor-dianas-projects-b7ad46ac.vercel.app/",
+      githubUrl: "https://github.com/Diana-Bernardos/Portfolio_web.git",
+      featured: false
+    },
   ];
 
   return (
@@ -187,7 +208,7 @@ export function Projects() {
                   alt={project.title}
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                   <span className="text-white text-sm font-medium">Ver más</span>
                 </div>
               </div>
