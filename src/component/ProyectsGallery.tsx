@@ -10,6 +10,7 @@ import spice from "../assets/spice.webp"
 import easy from "../assets/easy_4.png"
 import study from "../assets/case.png"
 import img3225 from "../assets/img3255.webp"
+import asistDom from "../assets/asistDom.png"
 
 interface ProjectsGalleryProps {
   onBack: () => void;
@@ -106,6 +107,15 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       technologies:  ["React", "JS", "SCSS"],
       liveUrl: "https://rick-and-morty-nu-eight.vercel.app/",
       githubUrl: "https://rick-and-morty-nu-eight.vercel.app/",
+      featured: false
+    },
+    {
+      title:"SmartHome AI",
+      description:"Asitente Domotico AI ",
+      image: asistDom,
+      technologies:  ["React", "TypeScript", "Tailwind","Ollama Phi3"],
+      liveUrl: "https://smart-home-ai-1-r8m0nnuor-dianas-projects-b7ad46ac.vercel.app/",
+      githubUrl: "https://smart-home-ai-1-r8m0nnuor-dianas-projects-b7ad46ac.vercel.app/",
       featured: false
     },
   ];
