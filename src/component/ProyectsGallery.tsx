@@ -62,7 +62,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       technologies: ["React", "spoonacularRecipesAPI", "ollama", "Tailwind CSS", "Supabase"],
       liveUrl: "https://mis-recetas-gluten-free.vercel.app/",
       githubUrl: "https://github.com/Diana-Bernardos/mis-recetas-gluten-free.git",
-      featured: true
+      featured: false
     },
     {
       title: "My Shopping List",

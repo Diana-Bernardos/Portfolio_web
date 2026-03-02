@@ -70,11 +70,11 @@ export function Projects() {
     },
     {
       title: "Recetario Sin Gluten",
-      description: "Recetas personalizadas con asistente de cocina.",
+      description: "Tu recetario personalizado sin gluten con asistente de cocina solo para ti , crea tus menús.",
       image: recetario,
-      technologies: ["React", "Tailwind", "Supabase", "Ollama"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["React", "spoonacularRecipesAPI", "ollama", "Tailwind CSS", "Supabase"],
+      liveUrl: "https://mis-recetas-gluten-free.vercel.app/",
+      githubUrl: "https://github.com/Diana-Bernardos/mis-recetas-gluten-free.git",
       featured: false
     },
     {
