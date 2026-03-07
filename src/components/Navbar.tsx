@@ -4,6 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
+import cvPdf from '../assets/docs/CV.pdf';
+
+
 interface NavbarProps {
   isDarkMode: boolean;
   toggleTheme: () => void;
@@ -77,7 +80,7 @@ export function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
               <motion.a
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                href=".../src/assets/docs/CV.pdf"
+                href={cvPdf}
                 download="CV.pdf"
                 className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-600 dark:text-gray-300"
                 title="Descargar CV"
@@ -134,7 +137,7 @@ export function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
                 </button>
               ))}
               <a
-                href="./assets/docs/CV.pdf"
+                href={cvPdf}
                 download="CV.pdf"
                 className="block w-full text-left px-4 py-3 text-gray-600 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/20 hover:text-purple-600 dark:hover:text-purple-400 rounded-lg transition-colors font-medium flex items-center"
               >
