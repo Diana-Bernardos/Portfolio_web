@@ -32,11 +32,11 @@ const Article: React.FC<ArticleProps> = ({ onBack }) => {
             He llegado hasta aqui, después de muchos años de experiencia laboral en otro sector que nada tiene que ver. El estar aburrida y estancada tantos años en lo mismo me ha echo ver aún con más lúz lo que soy capaz de hacer y aprender.</p>
             <p>
 
-            Llegue al mundo del desarrollo web de la mano de dos amigos que confiaron en que podia cambiar mi vida, por que no. Laura y Marcos me dijeron:"Adelante tu puedes" </p>
+            Llegue al mundo del desarrollo web de la mano de dos amigos que confiaron en que podia cambiar mi vida, por que no.  </p>
             <p>
-            Hoy soy Desarrolladora Web despues de una formación BootCamp y sigo formandome por mi cuenta con cursos certificados, usando y aprendiendo sobre IA asi como realizando proyectos y aplicaciones propias desde el inicio hasta su despliegue.</p>
+            Hoy soy Desarrolladora Web despues de una formación, como Tecnico Superior de DAW, un  BootCamp de desarrollo de aplicaciones Web y sigo formandome por mi cuenta con cursos certificados, usando y aprendiendo sobre IA para su aplicación en proyectos, asi como certificaciones en UX/UI para dar la mejor experiencia de usuario, realizando proyectos y aplicaciones propias desde el inicio hasta su despliegue.</p>
             <p>
-             He descubierto el mundo del Diseño UX/UI y me apasiona, por eso estoy aqui, por que sigo aprendiendo cada día y ahora si me encanta lo que hago .
+            He descubierto el mundo del Diseño UX/UI y la innovacion con IA y me apasiona, por eso estoy aqui, por que sigo aprendiendo cada día y ahora si me encanta lo que hago .
             </p>
 
             <h2> Mi Filosofía</h2>

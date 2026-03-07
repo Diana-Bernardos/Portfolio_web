@@ -108,7 +108,7 @@ export function About() {
 
                   <h3 className="text-xl font-semibold text-purple-600 dark:text-purple-400 mb-4">Actualidad</h3>
                   <p className="mb-6 text-gray-600 dark:text-gray-300">
-                    Hoy soy Desarrolladora Web después de una formación intensiva (Bootcamp) y sigo formándome por mi cuenta, aprendiendo sobre IA y realizando proyectos propios desde el inicio hasta su despliegue.
+                    Hoy soy Desarrolladora Web después de una formación como Tecnico Superior en DAW, Formacion intensiva en desarrollo de paginas Web (Bootcamp) y sigo formándome por mi cuenta, aprendiendo sobre IA y realizando proyectos propios desde el inicio hasta su despliegue.
                   </p>
 
                   <h3 className="text-xl font-semibold text-purple-600 dark:text-purple-400 mb-4">Filosofía</h3>
