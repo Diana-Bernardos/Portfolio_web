@@ -139,7 +139,7 @@ export function Projects() {
       image: PacMan,
       technologies:  ["PyGame", "Python", "Numpy"],
       liveUrl: "#",
-      githubUrl: "https://github.com/Diana-Bernardos/PacMan/deployments/github-pages",
+      githubUrl: "https://diana-bernardos.github.io/PacMan/",
       featured: false
     },
   ];
