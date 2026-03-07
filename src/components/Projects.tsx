@@ -3,7 +3,7 @@ import { Briefcase, ExternalLink, Github, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Import images (assuming they are in src/assets)
-import movil from "../assets/moviles.jpg"
+import family from "../assets/family.png"
 import libro from "../assets/ebook-example.jpg"
 import calculadora from "../assets/Calculadora.png"
 import finnest from "../assets/Finest.png"
@@ -14,6 +14,7 @@ import easy from "../assets/easy_4.png"
 import study from "../assets/case.png"
 import img3225 from "../assets/img3255.webp"
 import asistDom from "../assets/asistDom.png"
+import PacMan from "../assets/PacMan.png"
 
 interface Project {
   title: string;
@@ -34,10 +35,10 @@ export function Projects() {
       title: "Family Planner",
       description: "Calendario de planificación familiar, ten todo bajo control con tu asistente familiar.",
       longDescription: "Una aplicación completa para la gestión familiar que permite coordinar horarios, tareas y eventos. Incluye un asistente basado en IA para sugerir actividades y optimizar el tiempo.",
-      image: movil,
-      technologies: ["React", "Node.js", "MySQL", "JavaScript", "CSS", "Ollama"],
-      liveUrl: "https://www.canva.com/design/DAGgfKaN_gE/r6LhVstvPKNO9xYvlLNX1w/view",
-      githubUrl: "#",
+      image: family,
+      technologies: ["React", "Node.js", "Axios", "JavaScript", "CSS", "Ollama"],
+      liveUrl: "https://familyca.netlify.app/",
+      githubUrl: "https://www.canva.com/design/DAGgfKaN_gE/r6LhVstvPKNO9xYvlLNX1w/view",
       featured: true
     },
     {
@@ -129,6 +130,16 @@ export function Projects() {
       technologies:  ["React", "TypeScript", "Tailwind","Ollama Phi3"],
       liveUrl: "https://smart-home-ai-1-r8m0nnuor-dianas-projects-b7ad46ac.vercel.app/",
       githubUrl: "https://github.com/Diana-Bernardos/Portfolio_web.git",
+      featured: false
+    },
+
+    {
+      title:"PacMan",
+      description:"Juego interactivo PacMan ",
+      image: PacMan,
+      technologies:  ["PyGame", "Python", "Numpy"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/Diana-Bernardos/PacMan/deployments/github-pages",
       featured: false
     },
   ];

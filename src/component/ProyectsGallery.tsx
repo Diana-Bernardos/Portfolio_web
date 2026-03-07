@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowLeft, Github, ExternalLink } from 'lucide-react';
-import movil from "../assets/moviles.jpg"
+import family from "../assets/family.png"
 import libro from "../assets/ebook-example.jpg"
 import calculadora from "../assets/Calculadora.png"
 import finnest from "../assets/Finest.png"
@@ -11,6 +11,8 @@ import easy from "../assets/easy_4.png"
 import study from "../assets/case.png"
 import img3225 from "../assets/img3255.webp"
 import asistDom from "../assets/asistDom.png"
+import PacMan from "../assets/PacMan.png"
+
 
 interface ProjectsGalleryProps {
   onBack: () => void;
@@ -21,9 +23,9 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
     {
       title: "Family Planner",
       description: "Calendario de planificadión familiar, ten todo bajo control,con tu asistente familiar",
-      image: movil,
-      technologies: ["React", "Node.js", "MySql", "JacaScript", "CSS","ollama"],
-      liveUrl: "https://www.canva.com/design/DAGgfKaN_gE/r6LhVstvPKNO9xYvlLNX1w/view?utm_content=DAGgfKaN_gE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21c5263177",
+      image: family,
+      technologies: ["React", "Node.js","Axios", "JavaScript", "CSS","ollama"],
+      liveUrl: "https://familyca.netlify.app/",
       liveUrl_case:"https://v0-ux-ui-expert-review-8btb2bjgp-dianas-projects-b7ad46ac.vercel.app/",
 
       featured: true
@@ -116,6 +118,16 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       technologies:  ["React", "TypeScript", "Tailwind","Ollama Phi3"],
       liveUrl: "https://smart-home-ai-1-r8m0nnuor-dianas-projects-b7ad46ac.vercel.app/",
       githubUrl: "https://github.com/Diana-Bernardos/Portfolio_web.git",
+      featured: false
+    },
+
+    {
+      title:"PacMan",
+      description:"Juego interactivo PacMan ",
+      image: PacMan,
+      technologies:  ["PyGame", "Python", "Numpy"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/Diana-Bernardos/PacMan/deployments/github-pages",
       featured: false
     },
   ];
