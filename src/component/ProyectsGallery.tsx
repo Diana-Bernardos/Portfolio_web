@@ -115,7 +115,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onBack }) => {
       title:"SmartHome AI",
       description:"Asitente Domotico AI ",
       image: asistDom,
-      technologies:  ["React", "TypeScript", "Tailwind","Ollama Phi3"],
+      technologies:  ["React", "Python", "Tailwind","Ollama Phi3","FastApi"],
       liveUrl: "https://smart-home-ai-1-r8m0nnuor-dianas-projects-b7ad46ac.vercel.app/",
       githubUrl: "https://github.com/Diana-Bernardos/Portfolio_web.git",
       featured: false
