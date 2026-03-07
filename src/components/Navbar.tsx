@@ -77,7 +77,7 @@ export function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
               <motion.a
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                href="./assets/docs/CV.pdf"
+                href=".../src/assets/docs/CV.pdf"
                 download="CV.pdf"
                 className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-600 dark:text-gray-300"
                 title="Descargar CV"
