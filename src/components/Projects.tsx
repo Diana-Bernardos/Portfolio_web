@@ -9,7 +9,7 @@ import calculadora from "../assets/Calculadora.png"
 import finnest from "../assets/Finest.png"
 import recetario from "../assets/recetario.png"
 import shopping from "../assets/shopping.jpg"
-import spice from "../assets/spice.webp"
+import AIProtocol from "../assets/AIProtocol.png"
 import easy from "../assets/easy_4.png"
 import study from "../assets/case.png"
 import img3225 from "../assets/img3255.webp"
@@ -88,10 +88,10 @@ export function Projects() {
       featured: false
     },
     {
-      title: "Spice Developer",
-      description: "Presentación de equipo de servicios web.",
-      image: spice,
-      technologies: ["React", "JS", "CSS"],
+      title: "AI Clinical Assistant",
+      description: "Presentación de Sistema de IA con RAG que consulta protocolos médicos hospitalarios en lenguaje natural. Powered by Claude AI + ChromaDB de  servicios web.",
+      image: AIProtocol,
+      technologies: ["FastAPI + Python 3.11", "Pydantic","NLP Pipeline" ,"Vector DB | ChromaDB (local)"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
